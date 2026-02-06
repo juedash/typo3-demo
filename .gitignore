@@ -1,0 +1,88 @@
+################################
+# Node / Package Managers
+################################
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.yarn-cache/
+.yarn-integrity
+
+################################
+# Build outputs
+################################
+dist/
+build/
+public/
+.output/
+.nuxt/
+.next/
+out/
+coverage/
+
+################################
+# Pattern Lab
+################################
+public/
+patternlab-public/
+
+################################
+# Logs
+################################
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+################################
+# Environment files
+################################
+.env
+.env.*
+!.env.example
+
+################################
+# OS junk
+################################
+.DS_Store
+Thumbs.db
+
+################################
+# Editors / IDE
+################################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+################################
+# Monorepo tools (future proof)
+################################
+.nx/
+.turbo/
+.cache/
+
+################################
+# TypeScript
+################################
+*.tsbuildinfo
+
+################################
+# Local dev artifacts
+################################
+tmp/
+temp/
+
+################################
+# Lock OS files
+################################
+*.pid
+*.seed
+
+################################
+# PHP / Composer (for TYPO3 side)
+################################
+vendor/
+composer.lock
